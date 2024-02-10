@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 16px;
+  margin: 0;
+  font-family: Roboto;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1170px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding: 0 20px;
+}

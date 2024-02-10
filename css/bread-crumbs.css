@@ -1,0 +1,31 @@
+.breadcrumbs {
+  margin: 32px 0 0 0;
+}
+.breadcrumbs__links {
+  padding: 4px 0;
+  margin: 0 -12px;
+}
+.breadcrumbs__link {
+  position: relative;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7f8491;
+  padding: 0 12px;
+  text-decoration: none;
+}
+.breadcrumbs__link.not-last:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background: url("../img/catalog/right-arrow.svg") 0 0 no-repeat;
+}
+.breadcrumbs__link.active {
+  color: #ff4d5c;
+}
+
+/*# sourceMappingURL=bread-crumbs.css.map */
